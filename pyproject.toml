@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "slr"
+version = "0.1.0"
+description = "An open-source Python script that uses computer vision to recognize Sign Language letters through a camera."
+authors = ["Ahmed <ahmedtamer552001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mediapipe = "0.10"
+opencv-python = "^4.7.0.72"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

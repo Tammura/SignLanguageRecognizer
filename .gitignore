@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.swp
+*.swo
+
+# Poetry
+/.venv/
+__pypackages__/
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Other
+*.bak
+*.sqlite
+*.csv
